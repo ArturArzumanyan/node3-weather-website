@@ -1,0 +1,29 @@
+body{
+  color: #333333;
+  font-family: arial;
+  max-width: 350px;
+  margin: 0px, auto;
+  padding: auto;
+  background-color: darkseagreen;
+  height: 100%;
+}
+.main-content{
+  /* display: flex;
+  justify-content: right; */
+  margin: 50px, auto;
+  padding: auto;
+}
+
+input{
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button{
+  cursor: pointer;
+  border: 1px solid #888888;
+  background-color: #888888;
+  color: white;
+  padding: 8px;
+
+}
