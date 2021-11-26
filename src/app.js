@@ -1,11 +1,12 @@
 const express =require('express')
 const path = require('path')
-const app = express()
 const hbs = require('hbs')
 const geocode = require('./utils/geocode.js')
 const forecast = require('./utils/forecast.js')
 
 
+const app = express()
+const port = process.env.PORT || 3000
 
 //Difine paths for Express config
 const publicDirectoryPath = path.join(__dirname,'../public')
